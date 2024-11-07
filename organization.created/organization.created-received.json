@@ -1,0 +1,27 @@
+{
+  "data": {
+    "id": "org_2o9RAVkGMEfjA4f90OznAdaR1dx",
+    "name": "Confederacy of Independent Systems",
+    "slug": "confederacy-of-independent-systems",
+    "object": "organization",
+    "logo_url": null,
+    "has_image": false,
+    "image_url": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18yWFFiVmJDMGhjNzV2MVFKMk5RcjhSVWRmUksiLCJyaWQiOiJvcmdfMm85UkFWa0dNRWZqQTRmOTBPem5BZGFSMWR4IiwiaW5pdGlhbHMiOiJDIn0",
+    "created_at": 1730279661537,
+    "created_by": "user_2o9QUL1HBjwFSVmJt9Jo1yA3PAl",
+    "updated_at": 1730279661537,
+    "public_metadata": {},
+    "private_metadata": {},
+    "admin_delete_enabled": true,
+    "max_allowed_memberships": 5
+  },
+  "type": "organization.created",
+  "object": "event",
+  "timestamp": 1730279661541,
+  "event_attributes": {
+    "http_request": {
+      "client_ip": "",
+      "user_agent": "clerk/clerk-sdk-go@v2.0.0"
+    }
+  }
+}

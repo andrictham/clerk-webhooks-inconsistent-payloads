@@ -1,0 +1,53 @@
+{
+  "data": {
+    "id": "orgmem_2o9XXSriW8J9VdELquuqyZPAvYJ",
+    "role": "org:admin",
+    "object": "organization_membership",
+    "role_name": "Admin",
+    "created_at": 1730282804492,
+    "updated_at": 1730283294431,
+    "permissions": [
+      "org:sys_profile:manage",
+      "org:sys_memberships:read",
+      "org:sys_memberships:manage",
+      "org:sys_domains:read",
+      "org:sys_domains:manage",
+      "org:sys_profile:delete"
+    ],
+    "organization": {
+      "id": "org_2o9RAVkGMEfjA4f90OznAdaR1dx",
+      "name": "Confederacy of Independent Systems",
+      "slug": "confederacy-of-independent-systems",
+      "object": "organization",
+      "logo_url": null,
+      "has_image": false,
+      "image_url": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18yWFFiVmJDMGhjNzV2MVFKMk5RcjhSVWRmUksiLCJyaWQiOiJvcmdfMm85UkFWa0dNRWZqQTRmOTBPem5BZGFSMWR4IiwiaW5pdGlhbHMiOiJDIn0",
+      "created_at": 1730279661537,
+      "updated_at": 1730282804902,
+      "members_count": 2,
+      "public_metadata": {},
+      "admin_delete_enabled": true,
+      "max_allowed_memberships": 5,
+      "pending_invitations_count": 0
+    },
+    "public_metadata": {},
+    "public_user_data": {
+      "user_id": "user_2giUfelO6nqMouDtVZQOolP7eXN",
+      "has_image": true,
+      "image_url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yZ2lVZlpYbHNBSXY5MUhlTlU1ZjlNVmVoNWwifQ",
+      "last_name": "Chen",
+      "first_name": "Sprazzeus",
+      "identifier": "sprazzeus@gmail.com",
+      "profile_image_url": "https://images.clerk.dev/oauth_google/img_2giUfZXlsAIv91HeNU5f9MVeh5l"
+    }
+  },
+  "type": "organizationMembership.updated",
+  "object": "event",
+  "timestamp": 1730283294451,
+  "event_attributes": {
+    "http_request": {
+      "client_ip": "",
+      "user_agent": "clerk/clerk-sdk-go@v2.0.0"
+    }
+  }
+}

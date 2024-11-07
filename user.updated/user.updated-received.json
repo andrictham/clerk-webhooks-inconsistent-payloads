@@ -1,0 +1,67 @@
+{
+  "data": {
+    "id": "user_2nhHMVwjQOw3wThowNX4ZveCjwB",
+    "banned": false,
+    "locked": false,
+    "object": "user",
+    "passkeys": [],
+    "username": null,
+    "has_image": false,
+    "image_url": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18yWFFiVmJDMGhjNzV2MVFKMk5RcjhSVWRmUksiLCJyaWQiOiJ1c2VyXzJuaEhNVndqUU93M3dUaG93Tlg0WnZlQ2p3QiIsImluaXRpYWxzIjoiQVMifQ",
+    "last_name": "Skywalker",
+    "created_at": 1729418339423,
+    "first_name": "Anakin",
+    "updated_at": 1730115008703,
+    "external_id": null,
+    "totp_enabled": false,
+    "web3_wallets": [],
+    "phone_numbers": [],
+    "saml_accounts": [],
+    "last_active_at": null,
+    "mfa_enabled_at": null,
+    "email_addresses": [
+      {
+        "id": "idn_2nhHMWsuRFrqOELZJP1Ob6JbHR1",
+        "object": "email_address",
+        "reserved": false,
+        "linked_to": [],
+        "created_at": 1729418339432,
+        "updated_at": 1729418339432,
+        "verification": {
+          "status": "verified",
+          "attempts": null,
+          "strategy": "admin",
+          "expire_at": null
+        },
+        "email_address": "ani@paragraph.ink"
+      }
+    ],
+    "last_sign_in_at": null,
+    "mfa_disabled_at": null,
+    "public_metadata": {},
+    "unsafe_metadata": {},
+    "password_enabled": true,
+    "private_metadata": {},
+    "external_accounts": [],
+    "legal_accepted_at": null,
+    "profile_image_url": "https://www.gravatar.com/avatar?d=mp",
+    "two_factor_enabled": false,
+    "backup_code_enabled": false,
+    "delete_self_enabled": true,
+    "primary_web3_wallet_id": null,
+    "primary_phone_number_id": null,
+    "primary_email_address_id": "idn_2nhHMWsuRFrqOELZJP1Ob6JbHR1",
+    "lockout_expires_in_seconds": null,
+    "create_organization_enabled": true,
+    "verification_attempts_remaining": 100
+  },
+  "type": "user.updated",
+  "object": "event",
+  "timestamp": 1730115008725,
+  "event_attributes": {
+    "http_request": {
+      "client_ip": "",
+      "user_agent": "clerk/clerk-sdk-go@v2.0.0"
+    }
+  }
+}
